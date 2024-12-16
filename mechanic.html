@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Занимательная физика - Механика</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #4CAF50;
+        }
+
+        .formula {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            margin-top: 10px;
+        }
+
+        .example {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .unit {
+            font-weight: bold;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Механика - Занимательная физика</h1>
+</header>
+
+<main>
+    <!-- Тема 1: Законы Ньютона -->
+    <div class="section">
+        <h2>1. Законы Ньютона</h2>
+        <p>Законы Ньютона описывают движение тел под действием сил. Эти законы стали основой для классической механики.</p>
+
+        <div class="formula">
+            <strong>1-й закон Ньютона:</strong> "Тело остаётся в состоянии покоя или равномерного прямолинейного движения, если на него не действует сила или сумма всех сил равна нулю."
+        </div>
+        <div class="formula">
+            <strong>2-й закон Ньютона:</strong> F = ma
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>F — сила (Ньютоны, Н)</li>
+                <li>m — масса тела (кг)</li>
+                <li>a — ускорение (м/с²)</li>
+            </ul>
+        </div>
+        <div class="formula">
+            <strong>3-й закон Ньютона:</strong> "Каждое действие имеет равное и противоположное противодействие."
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если сила на тело массой 5 кг составляет 10 Н, то ускорение тела будет равно:
+            <br><br>
+            a = F / m = 10 Н / 5 кг = 2 м/с²
+        </div>
+    </div>
+
+    <!-- Тема 2: Работа и энергия -->
+    <div class="section">
+        <h2>2. Работа и энергия</h2>
+        <p>Работа и энергия — это фундаментальные концепции в механике, связанные с движением и силами, действующими на объекты.</p>
+
+        <div class="formula">
+            <strong>Работа:</strong> A = F * S * cos(θ)
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>A — работа (Джоули, Дж)</li>
+                <li>F — сила (Ньютоны, Н)</li>
+                <li>S — путь (метры, м)</li>
+                <li>θ — угол между направлением силы и направлением движения (градусы)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если сила 10 Н действует на объект по направлению движения на расстояние 5 м, то работа будет равна:
+            <br><br>
+            A = 10 Н * 5 м = 50 Дж
+        </div>
+
+        <div class="formula">
+            <strong>Кинетическая энергия:</strong> E<sub>k</sub> = (1/2) * m * v²
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>E<sub>k</sub> — кинетическая энергия (Джоули, Дж)</li>
+                <li>m — масса тела (кг)</li>
+                <li>v — скорость тела (м/с)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Тема 3: Закон сохранения энергии -->
+    <div class="section">
+        <h2>3. Закон сохранения энергии</h2>
+        <p>Этот закон утверждает, что энергия в замкнутой системе сохраняется и не исчезает, а только преобразуется из одной формы в другую.</p>
+
+        <div class="formula">
+            <strong>Общий вид закона:</strong> E<sub>всего</sub> = E<sub>потенциальная</sub> + E<sub>кинетическая</sub>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если в замкнутой системе механическая энергия сохраняется, то сумма кинетической и потенциальной энергии остаётся постоянной. Если тело падает с высоты, его потенциальная энергия превращается в кинетическую.
+        </div>
+    </div>
+
+    <!-- Тема 4: Сила тяжести -->
+    <div class="section">
+        <h2>4. Сила тяжести</h2>
+        <p>Сила тяжести — это сила, с которой Земля притягивает объекты, находящиеся рядом с её поверхностью.</p>
+
+        <div class="formula">
+            <strong>Сила тяжести:</strong> F<sub>тяж</sub> = m * g
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>F<sub>тяж</sub> — сила тяжести (Ньютоны, Н)</li>
+                <li>m — масса объекта (кг)</li>
+                <li>g — ускорение свободного падения (приблизительно 9.8 м/с² на поверхности Земли)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если масса объекта 10 кг, то сила тяжести на него будет:
+            <br><br>
+            F<sub>тяж</sub> = 10 кг * 9.8 м/с² = 98 Н
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a href="1st block.html" class="btn">вернутся обратно --></a>
+    </div>
+
+</main>
+
+</body>
+</html>

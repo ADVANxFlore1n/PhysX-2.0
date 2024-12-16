@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Занимательная физика - Квантовая физика</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #4CAF50;
+        }
+
+        .formula {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            margin-top: 10px;
+        }
+
+        .example {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .unit {
+            font-weight: bold;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Квантовая физика - Занимательная физика</h1>
+</header>
+
+<main>
+    <!-- Тема 1: Принцип неопределенности Гейзенберга -->
+    <div class="section">
+        <h2>1. Принцип неопределенности Гейзенберга</h2>
+        <p>Принцип неопределенности Гейзенберга утверждает, что невозможно точно измерить одновременно определенные пары физических величин, таких как положение и импульс частицы.</p>
+
+        <div class="formula">
+            <strong>Формула принципа неопределенности:</strong> Δx * Δp ≥ ℏ / 2
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>Δx — неопределенность в положении (метры, м)</li>
+                <li>Δp — неопределенность в импульсе (кг·м/с)</li>
+                <li>ℏ — редуцированная постоянная Планка (ℏ ≈ 1.055 × 10⁻³⁴ Дж·с)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Для частицы с неопределенностью положения Δx = 1 × 10⁻⁹ м, можно вычислить минимальную неопределенность импульса:
+            <br><br>
+            Δp ≥ ℏ / (2 * Δx) = (1.055 × 10⁻³⁴ Дж·с) / (2 * 1 × 10⁻⁹ м) = 5.275 × 10⁻²⁶ кг·м/с
+        </div>
+    </div>
+
+    <!-- Тема 2: Уравнение Шредингера -->
+    <div class="section">
+        <h2>2. Уравнение Шредингера</h2>
+        <p>Уравнение Шредингера является основным уравнением квантовой механики, которое описывает, как изменяется волновая функция системы со временем.</p>
+
+        <div class="formula">
+            <strong>Формула уравнения Шредингера:</strong> iℏ ∂ψ/∂t = Ĥψ
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>ψ — волновая функция (без единиц)</li>
+                <li>ℏ — редуцированная постоянная Планка (ℏ ≈ 1.055 × 10⁻³⁴ Дж·с)</li>
+                <li>Ĥ — гамильтониан (оператор энергии)</li>
+                <li>i — мнимая единица</li>
+                <li>∂/∂t — производная по времени</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Уравнение Шредингера позволяет вычислять волновую функцию для разных физических систем, например, для электрона в атоме водорода.
+        </div>
+    </div>
+
+    <!-- Тема 3: Эффект Комптона -->
+    <div class="section">
+        <h2>3. Эффект Комптона</h2>
+        <p>Эффект Комптона описывает рассеяние рентгеновских или гамма-лучей на свободных электронах, при котором длина волны рассеянного излучения увеличивается.</p>
+
+        <div class="formula">
+            <strong>Формула эффекта Комптона:</strong> Δλ = λ' - λ = h / (mₑ * c) * (1 - cos θ)
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>Δλ — изменение длины волны (метры, м)</li>
+                <li>λ' — длина волны после рассеяния</li>
+                <li>λ — длина волны до рассеяния</li>
+                <li>h — постоянная Планка (h ≈ 6.626 × 10⁻³⁴ Дж·с)</li>
+                <li>mₑ — масса электрона (9.109 × 10⁻³¹ кг)</li>
+                <li>c — скорость света (3 × 10⁸ м/с)</li>
+                <li>θ — угол рассеяния</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Для рассеяния света на угле 90° (θ = 90°) и использования рентгеновского излучения с длиной волны 1 × 10⁻¹⁰ м, можно вычислить изменение длины волны.
+        </div>
+    </div>
+
+    <!-- Тема 4: Квантование энергии -->
+    <div class="section">
+        <h2>4. Квантование энергии</h2>
+        <p>Квантование энергии означает, что энергия в квантовых системах может принимать только определённые дискретные значения.</p>
+
+        <div class="formula">
+            <strong>Формула для квантования энергии:</strong> E = n * h * f
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>E — энергия (Джоули, Дж)</li>
+                <li>n — квантовое число (целое число)</li>
+                <li>h — постоянная Планка (h ≈ 6.626 × 10⁻³⁴ Дж·с)</li>
+                <li>f — частота (Герцы, Гц)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если частота излучения составляет 1 × 10¹⁴ Гц, а квантовое число n = 2, то энергия будет:
+            <br><br>
+            E = 2 * 6.626 × 10⁻³⁴ Дж·с * 1 × 10¹⁴ Гц = 1.325 × 10⁻¹⁹ Дж
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a href="1st block.html" class="btn">вернутся обратно --></a>
+    </div>
+
+</main>
+
+</body>
+</html>

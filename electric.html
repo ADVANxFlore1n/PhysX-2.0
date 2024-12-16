@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Занимательная физика - Электричество и Магнетизм</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #4CAF50;
+        }
+
+        .formula {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            margin-top: 10px;
+        }
+
+        .example {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .unit {
+            font-weight: bold;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Электричество и Магнетизм - Занимательная физика</h1>
+</header>
+
+<main>
+    <!-- Тема 1: Закон Ома -->
+    <div class="section">
+        <h2>1. Закон Ома</h2>
+        <p>Закон Ома описывает зависимость между напряжением, током и сопротивлением в электрической цепи.</p>
+
+        <div class="formula">
+            <strong>Формула закона Ома:</strong> V = I * R
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>V — напряжение (Вольты, В)</li>
+                <li>I — ток (Амперы, А)</li>
+                <li>R — сопротивление (Омы, Ω)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если ток в цепи равен 2 А, а сопротивление 5 Ω, то напряжение будет равно:
+            <br><br>
+            V = 2 А * 5 Ω = 10 В
+        </div>
+    </div>
+
+    <!-- Тема 2: Закон Кулона -->
+    <div class="section">
+        <h2>2. Закон Кулона</h2>
+        <p>Закон Кулона описывает силу взаимодействия между двумя электрическими зарядами.</p>
+
+        <div class="formula">
+            <strong>Формула закона Кулона:</strong> F = k * (|q1 * q2|) / r²
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>F — сила взаимодействия (Ньютоны, Н)</li>
+                <li>q1, q2 — величины зарядов (Кулоны, C)</li>
+                <li>r — расстояние между зарядами (метры, м)</li>
+                <li>k — электростатическая постоянная (8.99 × 10⁹ Н·м²/Кл²)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если два заряда q1 = 3 C и q2 = 4 C находятся на расстоянии 2 м друг от друга, то сила их взаимодействия будет:
+            <br><br>
+            F = (8.99 × 10⁹ Н·м²/Кл²) * (3 C * 4 C) / (2 м)² = 2.697 × 10¹¹ Н
+        </div>
+    </div>
+
+    <!-- Тема 3: Электрическая энергия и мощность -->
+    <div class="section">
+        <h2>3. Электрическая энергия и мощность</h2>
+        <p>Электрическая энергия — это энергия, передаваемая электрическим током. Мощность описывает скорость передачи этой энергии.</p>
+
+        <div class="formula">
+            <strong>Формула для мощности:</strong> P = V * I
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>P — мощность (Ватты, Вт)</li>
+                <li>V — напряжение (Вольты, В)</li>
+                <li>I — ток (Амперы, А)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если напряжение в цепи 10 В, а ток 3 А, то мощность будет:
+            <br><br>
+            P = 10 В * 3 А = 30 Вт
+        </div>
+
+        <div class="formula">
+            <strong>Формула для энергии:</strong> E = P * t
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>E — энергия (Джоули, Дж)</li>
+                <li>P — мощность (Ватты, Вт)</li>
+                <li>t — время (секунды, с)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если мощность устройства составляет 50 Вт, и оно работает 2 часа (7200 секунд), то энергия, потреблённая устройством, будет:
+            <br><br>
+            E = 50 Вт * 7200 с = 360 000 Дж
+        </div>
+    </div>
+
+    <!-- Тема 4: Магнитное поле -->
+    <div class="section">
+        <h2>4. Магнитное поле</h2>
+        <p>Магнитное поле — это поле, создаваемое движущимися зарядами (током), которое воздействует на другие заряды и магнитные материалы.</p>
+
+        <div class="formula">
+            <strong>Сила Лоренца:</strong> F = q * (E + v × B)
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>F — сила (Ньютоны, Н)</li>
+                <li>q — заряд (Кулоны, C)</li>
+                <li>E — электрическое поле (Вольты на метр, В/м)</li>
+                <li>v — скорость (метры в секунду, м/с)</li>
+                <li>B — магнитная индукция (Тесла, Т)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если заряд 1 C движется со скоростью 2 м/с в магнитном поле с индукцией 0.5 Т, то сила, действующая на заряд, будет:
+            <br><br>
+            F = 1 C * (0 + 2 м/с × 0.5 Т) = 1 N
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a href="1st block.html" class="btn">вернутся обратно --></a>
+    </div>
+
+</main>
+
+</body>
+</html>
